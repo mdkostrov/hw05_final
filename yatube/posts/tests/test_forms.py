@@ -236,5 +236,5 @@ class PostCreateEditFormTests(TestCase):
             reverse('users:login')
             + '?next='
             + reverse('posts:add_comment',
-                    kwargs={'post_id': post.id})
+                      kwargs={'post_id': post.id})
         )
