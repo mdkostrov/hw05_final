@@ -271,7 +271,7 @@ class FollowingTests(TestCase):
         )
         post = Post.objects.create(
             author=self.author,
-            text="Лайк подписка репост"
+            text='Лайк подписка репост'
         )
         response_before = self.authorized_client.get(
             reverse('posts:follow_index')
