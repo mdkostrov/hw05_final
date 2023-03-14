@@ -30,7 +30,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     '[::1]',
     'testserver',
-    '51.250.83.101',
+    '130.193.50.220',
 ]
 
 
@@ -129,7 +129,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = '/static/'  # префикс для url
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')  # папка, в которой будет лежать статика
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
