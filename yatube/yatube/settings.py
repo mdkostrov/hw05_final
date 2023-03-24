@@ -42,7 +42,9 @@ ALLOWED_HOSTS = [
     '[::1]',
     'testserver',
     'kostrov.sytes.net',
+    'amra-market.com',
     '158.160.36.25',
+    '*',
 ]
 
 
