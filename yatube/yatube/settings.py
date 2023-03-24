@@ -41,6 +41,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     '[::1]',
     'testserver',
+    'kostrov.sytes.net',
     '158.160.36.25',
 ]
 
